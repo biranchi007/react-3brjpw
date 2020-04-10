@@ -2,9 +2,10 @@ import React from "react";
 //import Footer from './Footer'
 
 function Header() {
+  var firstname = "Bir"
   return (
     <div>
-      <main>Main Component</main>
+      <main className="navbar">Main Component. Hello {firstname}</main>
     </div>
   );
 }

@@ -4,9 +4,9 @@ import React from "react";
 function Header() {
   return (
     <div>
-      <header>Header</header>
+      <header className="navbar">Header</header>
     </div>
   );
 }
 
-export default Header;
+export default Header
